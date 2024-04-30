@@ -1,18 +1,15 @@
 {
-  "name": "random-project",
-  "version": "1.0.0",
-  "description": "A randomly generated package.json file",
-  "main": "index.js",
+  "name": "laminar-api",
+  "version": "0.1.0",
+  "description": "OpenAPI client for laminar-api",
+  "author": "OpenAPI-Generator",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
-    "start": "node index.js",
-    "test": "jest"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-  "author": "Your Name",
-  "license": "MIT",
   "devDependencies": {
-    "babel/core": "^7.16.5",
-    "babel/preset-env": "^7.16.5",
-    "jest": "^27.4.7",
-    "nodemon": "^2.0.15"
+    "typescript": "^3.9.5"
   }
 }
