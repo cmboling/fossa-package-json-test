@@ -9,12 +9,6 @@
   },
   "author": "Your Name",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "lodash": "^4.17.21",
-    "axios": "^0.21.1",
-    "mongoose": "^6.1.4"
-  },
   "devDependencies": {
     "babel/core": "^7.16.5",
     "babel/preset-env": "^7.16.5",
